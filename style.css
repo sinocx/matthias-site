@@ -4,7 +4,7 @@
 
 h1, h2, h3, h4, h5, h6
 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Quicksand', 'Roboto';
 }
 
 h1, h2, h3, h4, h5, h6
@@ -49,17 +49,17 @@ span.x4:before, i.x4:before
 
 header .container-fluid
 {
-    background-image: url('https://unsplash.it/2560/1707?image=961');
+    background-image: url("DOCPROJ/appart vrai 5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 120vh;
     padding-top: 36px;
 }
 
 .hamburger
 {
-    font-size: 2.3em;
-    color: #000;
+    font-size: 2.8em;
+    color: #828282;
 }
 
 .hamburger:hover
@@ -105,29 +105,14 @@ header .container-fluid
 
 .number .container-fluid
 {
-    background-image: url('https://unsplash.it/3000/2000?image=685');
+    background-image: url("DOCPROJ/cvv.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    height: 100vh;
+    padding-top: 36px;
+
 }
 
-.opaline
-{
-    padding-top: 3em;
-    padding-bottom: 3em;
-    background-color: rgba(128, 215, 247, 0.660);
-}
-
-.opaline h1,
-.opaline h2,
-.opaline h3,
-.opaline h4,
-.opaline h5,
-.opaline h6,
-.opaline p
-{
-    color: #FFFFFF;
-}
 
 .opaline .boxes
 {
@@ -139,12 +124,12 @@ header .container-fluid
 
 .boxes .odometer.odometer-theme-default
 {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Quicksand', Roboto;
 }
 
 .story .container-fluid
 {
-    background-image: url('https://unsplash.it/3000/2000?image=531');
+    background-color: #d2d2d2;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -152,17 +137,17 @@ header .container-fluid
 
 .gallery
 {
-    background-color: #dddddd;
+    background-color: #d2d2d2;
 }
 
 .prefooter .container-fluid
 {
-    background: linear-gradient(
-      rgba(33, 37, 43, 0.6),
-      rgba(33, 37, 43, 0.6)
-    ),
-
-    url(https://unsplash.it/4000/3000?image=528);
+    background-color: #FFFFFF;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	width: 1360px;
+	height: 150px;
 }
 
 .prefooter h1,
@@ -173,7 +158,22 @@ header .container-fluid
 .prefooter h6,
 .prefooter p
 {
-    color: #FFFFFF;
+	color: #000000;
+}
+
+.btn {
+	border-radius: 8px;
+	font-family: 'Roboto', sans-serif;
+	color: #6a6a6a;
+	font-size: 135%;
+	padding: 10px 20px;
+	border: solid #6a6a6a 2.5px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.btn:hover {
+	color: #d2d2d2;
+	border: solid #d2d2d2 3px;
 }
 
 /*------------------------------------*\
@@ -185,6 +185,7 @@ footer
     background-color: rgba(36, 50, 59, 1);
     padding-top: 2em;
     padding-bottom: 1.2em;
+	text-align: center;
 }
 
 footer h1,
@@ -198,7 +199,3 @@ footer p
     color: #FFFFFF;
 }
 
-.social
-{
-    padding-top: 50px;
-}
