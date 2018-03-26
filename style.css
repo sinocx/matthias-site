@@ -45,6 +45,8 @@ span.x4:before, i.x4:before
 
 /*------------------------------------*\
 	HEADER
+
+
 \*------------------------------------*/
 
 header .container-fluid
@@ -55,11 +57,23 @@ header .container-fluid
     height: 120vh;
     padding-top: 36px;
 }
+<<<<<<< HEAD
 
 .hamburger
 {
     font-size: 2.8em;
     color: #828282;
+=======
+.menu-btn {
+  position: sticky;
+  top:0;
+}
+.hamburger {
+    font-size: 2.8em;
+    color: #828282;
+    position: sticky;
+    top:0;
+>>>>>>> 79079fa78dc4b04415b050565c2e98262a35397e
 }
 
 .hamburger:hover
@@ -108,11 +122,19 @@ header .container-fluid
     background-image: url("DOCPROJ/cvv.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+<<<<<<< HEAD
     height: 100vh;
     padding-top: 36px;
 
 }
 
+=======
+    background-position: center;
+	height: 768px;
+	width: 1350px;
+}
+
+>>>>>>> 79079fa78dc4b04415b050565c2e98262a35397e
 
 .opaline .boxes
 {
