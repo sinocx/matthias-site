@@ -13,8 +13,13 @@ html, body {
 	font-family: 'Raleway';
 	font-size: 18px;
 	text-align: justify;
+<<<<<<< HEAD
+	margin-left: 50px;
+	margin-right: 50px;
+=======
 	margin-left: 100px;
 	margin-right: 100px;
+>>>>>>> 79079fa78dc4b04415b050565c2e98262a35397e
 	text-indent: 50px;
 	
 }
@@ -61,8 +66,13 @@ html, body {
 	font-size: 24px;
 	letter-spacing: 3px;
 	text-align: justify;
+<<<<<<< HEAD
+	margin-left: 50px;
+	margin-right: 50px;
+=======
 	margin-left: 100px;
 	margin-right: 100px;
+>>>>>>> 79079fa78dc4b04415b050565c2e98262a35397e
 	text-indent: 50px;
 }
 .titretexte h4 {
@@ -72,8 +82,13 @@ html, body {
 	font-size: 18px;
 	letter-spacing: none;
 	text-align: justify;
+<<<<<<< HEAD
+	margin-left: 50px;
+	margin-right: 50px;
+=======
 	margin-left: 100px;
 	margin-right: 100px;
+>>>>>>> 79079fa78dc4b04415b050565c2e98262a35397e
 	text-indent: 50px;
 }
 .btn {
