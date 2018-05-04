@@ -1,5 +1,5 @@
 /*------------------------------------*\
-  COMMONS CLASSES
+	COMMONS CLASSES
 \*------------------------------------*/
 
 h1, h2, h3, h4, h5, h6
@@ -44,7 +44,7 @@ span.x4:before, i.x4:before
 
 
 /*------------------------------------*\
-  HEADER
+	HEADER
 \*------------------------------------*/
 
 header .container-fluid
@@ -100,7 +100,7 @@ header .container-fluid
 
 
 /*------------------------------------*\
-  SECTIONS
+	SECTIONS
 \*------------------------------------*/
 
 .number .container-fluid
@@ -143,11 +143,11 @@ header .container-fluid
 .prefooter .container-fluid
 {
     background-color: #FFFFFF;
-  background-repeat: no-repeat;
+	background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-  width: 1360px;
-  height: 150px;
+	width: 1360px;
+	height: 150px;
 }
 
 .prefooter h1,
@@ -158,26 +158,26 @@ header .container-fluid
 .prefooter h6,
 .prefooter p
 {
-  color: #000000;
+	color: #000000;
 }
 
 .btn {
-  border-radius: 8px;
-  font-family: 'Roboto', sans-serif;
-  color: #6a6a6a;
-  font-size: 135%;
-  padding: 10px 20px;
-  border: solid #6a6a6a 2.5px;
-  text-transform: uppercase;
-  text-decoration: none;
+	border-radius: 8px;
+	font-family: 'Roboto', sans-serif;
+	color: #6a6a6a;
+	font-size: 135%;
+	padding: 10px 20px;
+	border: solid #6a6a6a 2.5px;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 .btn:hover {
-  color: #d2d2d2;
-  border: solid #d2d2d2 3px;
+	color: #d2d2d2;
+	border: solid #d2d2d2 3px;
 }
 
 /*------------------------------------*\
-  FOOTER
+	FOOTER
 \*------------------------------------*/
 
 footer
@@ -185,7 +185,7 @@ footer
     background-color: rgba(36, 50, 59, 1);
     padding-top: 2em;
     padding-bottom: 1.2em;
-  text-align: center;
+	text-align: center;
 }
 
 footer h1,
